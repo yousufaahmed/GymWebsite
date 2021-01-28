@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-image: url("../images/IMMP_Background.png");
+}
+.navbar {
+  margin: auto;
+}
+.navbar-brand img{
+  width: 70px;
+  height: auto;
+}
+.aboutText {
+  text-align: right;
+}
+.mainHeading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.haLImage {
+  width: 550px;
+  height: auto;
+  margin: auto;
+}
+.mainSection {
+  margin: 20px;
+}
+.carouselSection {
+  align-items: center;
+  background: #000000;
+  background: rgba(0,0,0,0.2);
+  margin: 80px;
+}
+.image{
+  width: 600px;
+  height: auto;
+}
+.btn {
+  margin-bottom: 50px;
+}
+.footer {
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+}
