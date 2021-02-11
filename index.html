@@ -5,13 +5,14 @@
     <title>Welcome to H&F!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
   </head>
   <body>
     </div>
     <section class="navbarSection">
       <nav class="navbar navbar-dark navbar-expand bg-dark fixed-top">
         <div class="container-fluid sticky-top">
-          <a class="navbar-brand" href="#"><img src="images/H&L logo.png" alt="H&L-logo-img"></a>
+          <a class="navbar-brand" href="index.html"><img src="images/H&L logo.png" alt="H&L-logo-img"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,13 +22,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">General Health</a>
+                <a class="nav-link" href="generalHealth.html">General Health</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Teen Page</a>
+                <a class="nav-link" href="teenPage.html">Teen Page</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Adult Page</a>
+                <a class="nav-link" href="adultPage.html">Adult Page</a>
               </li>
             </ul>
           </div>
@@ -41,7 +42,7 @@
 
         <div class="col-lg-6">
           <h3>About</h3>
-          <p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="aboutText">We are a Health and Leisure centre located in Kesgrave, Ipswich and we pride ourselves in having the best facilities and customer service. Our facilities include a fully functioning gym, a swimming pool, a tennis court, a football court, and a variety of other beautiful facilities. We have a few hand picked, community loved restaurants, and an internet cafe to keep you full, awake and hydrated. Once you walk through our doors, you will be in love with our centre, and you most probably will never leave, unless we are closed of course!</p>
         </div>
         <div class="col-lg-6">
           <img class="haLImage" src="images/H&L main photo.jpg" alt="H&L-img">
@@ -53,13 +54,13 @@
       <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/weights.jpg" class="image" alt="image">
+            <img src="images/weights.jpg" class="carouselImage" alt="image">
           </div>
           <div class="carousel-item">
-            <img src="images/football.jpg" class="image" alt="image">
+            <img src="images/football.jpg" class="carouselImage" alt="image">
           </div>
           <div class="carousel-item">
-            <img src="images/exercise.jpg" class="image" alt="image">
+            <img src="images/exercise.jpg" class="carouselImage" alt="image">
         </div>
         <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,7 +73,65 @@
       </div>
     </section>
 
-    <button type="button" class="btn btn-secondary btn-lg" name="contentsButton">Go To Contents</button>
+    <section class="pricingSection">
+
+        <h2 class="section-heading">Pricing for our facilities</h2>
+        <p>Such good pricing that you'll want to be here all the time!</p>
+
+        <div class="row">
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Bronze</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">Free</h2>
+                <p>Full access to restaurants and cafe</p>
+                <p>Access to football pitch</p>
+                <p>Access to outdoor Gym facilities</p>
+                <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>Silver</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">£15 / mo</h2>
+                <p>Full access to all facilities</p>
+                <p>Free starter goodybag on first visit</p>
+                <p>Access to sports tournaments</p>
+                <p>Ability to gain points</p>
+                <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing-column col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3>Gold</h3>
+              </div>
+              <div class="card-body">
+                <h2 class="price-text">£30 / mo</h2>
+                <p>Full access to all facilities</p>
+                <p>Free premium goodybag on first visit</p>
+                <p>Access to sports tournaments</p>
+                <p>You become a priority customer</p>
+                <p>Access to VIP area</p>
+                <p>Ability to gain points</p>
+                <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <button onclick="on()" type="button" class="btn btn-secondary btn-lg" name="contentsButton">Go To Contents</button>
 
     <footer class="footer bg-dark">
       <div class="container-fluid">
@@ -84,11 +143,30 @@
       </div>
     </footer>
 
+    <div id="overlay" onclick="off()">
+      <div id="text">
+        <h1>Contents</h1>
+        <a href="adultPage.html" class="btn btn-secondary btn-lg contentsButtons">Adult Page</a>
+        <a href="teenPage.html" class="btn btn-secondary btn-lg contentsButtons">Teenage Page</a>
+        <a href="generalHealth.html" class="btn btn-secondary btn-lg contentsButtons">General Health Page</a>
+        <a href="dietPage.html" class="btn btn-secondary btn-lg contentsButtons">Diet Page</a>
+      </div>
+    </div>
 
     <!---JavaScript---->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <script src="javaScript/index.js" charset="utf-8"></script>
+
+    <script>
+      function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
   </body>
 </html>

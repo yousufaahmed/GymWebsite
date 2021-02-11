@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-image: url("../images/IMMP_Background.png");
+  background: linear-gradient(-45deg, #EEEEEE 25%, #00adb5 25% 50%, #393e46 50% 75%, #222831 75%);
+  color: grey;
 }
 .navbar {
   margin: auto;
@@ -15,7 +16,7 @@ body {
 .mainHeading {
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 .haLImage {
   width: 550px;
@@ -24,12 +25,18 @@ body {
 }
 .mainSection {
   margin: 20px;
+  color: grey;
 }
 .carouselSection {
   align-items: center;
   background: #000000;
   background: rgba(0,0,0,0.2);
   margin: 80px;
+  text-align: center;
+}
+.carouselImage {
+  height: 450px;
+  width: auto;
 }
 .image{
   width: 600px;
@@ -38,8 +45,46 @@ body {
 .btn {
   margin-bottom: 50px;
 }
+.pricing-column {
+  padding: 3% 3%;
+  color: black;
+}
+
 .footer {
   padding: 20px;
   color: white;
   font-size: 1rem;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.contentsButtons {
+  width: 300px;
+  height: 80px;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 60px;
+}
+.social-icon{
+  margin: 10px;
 }

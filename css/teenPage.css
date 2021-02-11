@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background: linear-gradient(-45deg, #EEEEEE 25%, #00adb5 25% 50%, #393e46 50% 75%, #222831 75%);
+}
+.navbar {
+  margin: auto;
+}
+.navbar-brand img{
+  width: 70px;
+  height: auto;
+}
+.aboutText {
+  text-align: left;
+}
+.mainHeading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 110px;
+}
+.firstImage {
+  width: 550px;
+  height: auto;
+  margin: 20px;
+  float:right;
+}
+.mainSection {
+  margin: 20px;
+  color: grey;
+}
+.vids {
+  margin: 20px;
+}
+.image{
+  width: 600px;
+  height: auto;
+  margin: 30px;
+}
+.btn {
+  margin-bottom: 50px;
+}
+.footer {
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+}
+.social-icon{
+  margin: 10px;
+}
